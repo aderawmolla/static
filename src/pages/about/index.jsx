@@ -134,7 +134,6 @@ complement its core activities & In different sectors
           </div>
         </div>
       </section>
-      {/* <AboutCompany /> */}
     </main>
   );
 }
