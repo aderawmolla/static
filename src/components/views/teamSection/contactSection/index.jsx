@@ -1,25 +1,25 @@
 export default function ContactSection() {
   return (
-    <div className="bg-primary-light1 pb-8">
+    <div className="pb-8 bg-primary-light1">
       <section id="contact" className="text-primary-blackfont-mono ">
-        <div className="container px-5  mx-auto">
+        <div className="container px-5 mx-auto">
           <div className="mx-auto text-primary-black mb-12 pt-12 lg:pt-20 max-w-[510px] text-center lg:mb-20 font-mono">
             <h2 className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
               Get in touch with
             </h2>
-            <p className="text-body-color text-base">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
+            <p className="text-base text-body-color">
+              {/* There are many variations of passages of Lorem Ipsum available but
+              the majority have suffered alteration in some form. */}
             </p>
           </div>
         </div>
       </section>
 
       <div className="flex flex-col  justify-evenly px-[5%] max-w-[1500px] mx-auto  gap-8 ">
-        <div className="flex  mx-2 justify-around gap-x-10">
+        <div className="flex justify-around mx-2 gap-x-10">
           <a
             href="#kl;"
-            className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500  dark:hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
             aria-label="Facebook"
           >
             <svg
@@ -33,7 +33,7 @@ export default function ContactSection() {
           </a>
           <a
             href="kl;"
-            className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500  dark:hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
             aria-label="Facebook"
           >
             <svg
@@ -48,7 +48,7 @@ export default function ContactSection() {
 
           <a
             href="kl"
-            className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
             aria-label="Github"
           >
             <svg
@@ -64,7 +64,7 @@ export default function ContactSection() {
 
           <a
             href="#m,."
-            className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
             aria-label="Twiter"
           >
             <svg
@@ -77,7 +77,7 @@ export default function ContactSection() {
             </svg>
           </a>
         </div>
-        <section className="w-full text-gray-600 body-font rounded-lg">
+        <section className="w-full text-gray-600 rounded-lg body-font">
           <iframe
             title="map"
             className="w-full h-96 lg:h-[500px] dark:bg-gray-500 rounded-lg opacity-70 bg-gray-dark3"

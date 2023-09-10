@@ -1,64 +1,46 @@
 {
   "services": [
     {
-      "title": "Production",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "title": "Our  vision",
+      "description": "To be one of the best company in our operational area onour specific product & services.",
       "image": "produce.gif"
     },
     {
-      "title": "Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "title": "Our  mission",
+      "description": "Execute selected projects with maximum quality, byutilizing high professionalskills in order to achieve anoptimumreturn on all our product & services.",
       "image": "develope.gif"
     },
     {
-      "title": "Promotion",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "title": "Our Values",
+      "description": "Quality, Reliability, Leadership, Innovation",
       "image": "promote.gif"
     }
   ],
 
   "portfolio": [
     {
-      "title": "e-commerce website",
-      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "doner": "ABC Company",
-      "image": "portfolio.png"
+      "title": "MR 24 Transport ",
+      "testimony": "MR 24 Transport is theTransport & related businessunit and provides the skill,expertise, experience and essential to meet thedemands of today's fast trackTransport Service",
+      "doner": "Time Matters",
+      "image": "transport.png"
     },
     {
-      "title": "e-commerce website",
-      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "doner": "ABC Company",
-      "image": "portfolio1.jpg"
+      "title": "MR 24 Mining & Quarrying ",
+      "testimony": "MR 24 Mining & Quarrying isthe mining business unit andprovides the skill, expertise,experience and resourcesessntial to meet the demandsof today's fast track Miningproducts.",
+      "doner": "Time Matters",
+      "image": "mining.png"
     },
     {
-      "title": "e-commerce website",
-      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "doner": "ABC Company",
-      "image": "portfolio2.jpg"
+      "title": "MR 24 Construction",
+      "testimony": "MR 24 Construction is theConstruction business unit andprovides the skill, expertise,experience and resourcesessntial to meet the demandsof today's fast track Project.",
+      "doner": "Time matters",
+      "image": "construction.png"
     },
     {
-      "title": "e-commerce website",
-      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "doner": "ABC Company",
-      "image": "portfolio3.jpeg"
-    },
-    {
-      "title": "e-commerce website",
-      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "doner": "ABC Company",
-      "image": "portfolio4.png"
-    },
-    {
-      "title": "e-commerce website",
-      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "doner": "ABC Company",
-      "image": "portfolio5.png"
-    },
-    {
-      "title": "e-commerce website",
-      "testimony": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "doner": "ABC Company",
-      "image": "portfolio6.jpg"
+      "title": "MR 24 Agriculture ",
+      "testimony": "MR 24 Agriculture is theAgriculture & Animal Farmingbusiness unit and provides theskill, expertise, experience andresources essential to meet thedemand agriculture & animalfarm product & services",
+      "doner": "Time Matters",
+      "image": "agriculture.png"
     }
   ],
 

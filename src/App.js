@@ -14,16 +14,11 @@ export default function App() {
   return (
     <>
       <div
-        className="h-screen bg-cover bg-center bg-gray-700"
+        className="h-screen bg-gray-700 bg-center bg-cover"
       >
         <Navbar />
         <Routes>
           <Route path="/" index element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/service" element={<ServicePage />} />
-          <Route path="/portfolio" index element={<PortfolioPage />} />
-          <Route path="/team" element={<TeamPage />} />
-          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </div>

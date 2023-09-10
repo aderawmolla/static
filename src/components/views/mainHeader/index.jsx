@@ -3,21 +3,18 @@ import SocialLinks from "../../widgets/socialLinks";
 
 export default function MainHeader() {
   return (
-    <div className="pt-56 flex flex-col justify-between  h-screen bg-gradient-to-t from-primary-white to-primary-light2 font-mono">
+    <div className="flex flex-col justify-between h-screen pt-56 font-mono bg-gradient-to-t from-primary-white to-primary-light2">
       <div className="flex max-w-[1500px] mx-auto justify-center  h-3/5 items-center gap-x-16">
-        <div className=" w-2/5">
-          <p className="font-extrabold duration-500 text-secondary-700 text-[3.5rem] leading-[3.5rem] xs:text-[4.5rem] xs:leading-[4.5rem] xsm:text-[5.5rem] xsm:leading-[5.5rem] sm:text-[6.5rem] sm:leading-[6.5rem] md:text-[6rem] md:leading-[6rem] lg:text-[5.48rem] lg:leading-[5.48rem] xl:text-[6rem] xl:leading-[6rem] ">
-            We Produce Develope & Promote
+        <div className="w-2/5 ">
+          <p class="pl-20">
+           MR 24 key activities are Transport & Trade. In addition ,
+    MR 24 has established other businesses which
+     complement its core activities & In different sectors
           </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
-            adipisci fuga fugiat veniam natus, mollitia sed nisi et sapiente
-            blanditiis!
-          </p>
-          <div className="flex pt-16 mx-2 justify-start gap-x-10">
+          <div className="flex justify-start pt-16 mx-2 gap-x-10">
             <a
               href="#kl;"
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500  dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Facebook"
             >
               <svg
@@ -31,7 +28,7 @@ export default function MainHeader() {
             </a>
             <a
               href="kl;"
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500  dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Facebook"
             >
               <svg
@@ -46,7 +43,7 @@ export default function MainHeader() {
 
             <a
               href="kl"
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Github"
             >
               <svg
@@ -62,7 +59,7 @@ export default function MainHeader() {
 
             <a
               href="#m,."
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Github"
             >
               <svg
@@ -79,18 +76,18 @@ export default function MainHeader() {
         <div className="flex w-3/5 h-full mt-32">
           <div className="">
             <img
-              className="w-full h-full rounded-2xl"
-              src="/images/mainImage.png"
+              className="w-1 h-100 rounded-2xl"
+              src="/images/mineral.jpg"
               alt=""
             />
           </div>
         </div>
       </div>
-      <div className=" mx-auto text-center  space-y-8 ">
+      <div className="mx-auto space-y-8 text-center ">
         <a href="#about">
           <Button text="EXPLORE NOW" />
         </a>
-        <div className="flex justify-center  mx-auto animate-bounce">
+        <div className="flex justify-center mx-auto animate-bounce">
           <a
             href="#about"
             className="mt-8 cursor-pointer animate-bounce scroll-smooth"

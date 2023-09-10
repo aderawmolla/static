@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <main>
       <AboutHeader />
-      <section className="container px-6 py-8 mx-auto lg:py-16 font-mono" id="about">
+      <section className="container px-6 py-8 mx-auto font-mono lg:py-16" id="about">
         <div className="lg:flex lg:items-center lg:-mx-4">
           <div className="lg:w-1/2 lg:px-4">
             <h3 className="text-xl font-medium text-gray-800 md:text-2xl lg:text-3xl">
@@ -13,10 +13,9 @@ export default function AboutPage() {
             </h3>
 
             <p className="mt-6 text-gray-500 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              cumque quibusdam eveniet rerum excepturi voluptates! Hic possimus
-              eum, enim in est, sunt voluptate, neque maxime doloribus quidem
-              deserunt aspernatur officiis!
+              MR 24 key activities are Transport & Trade. In addition ,
+MR 24 has established other businesses which
+complement its core activities & In different sectors
             </p>
 
             <button className="flex items-center mt-8 -mx-2 text-indigo-500"></button>

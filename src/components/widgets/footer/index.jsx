@@ -4,25 +4,21 @@ export default function Footer() {
   return (
     <footer className=" bg-gray-dark3">
       <div className="flex flex-col md:flex-row flex-wrap w-full  justify-between  text-white px-[4%]  py-8 md:text-start text-center gap-y-16 gap-x-36 max-w-[1500px] mx-auto">
-        <div className="flex flex-col  gap-y-8 ">
+        <div className="flex flex-col gap-y-8 ">
           <div className="space-y-2 font-mono">
             <div className="flex items-center">
               <Link to="/" className="flex items-center gap-x-4">
                 {" "}
                 <img
-                  src="/images/logofullwhite.png"
+                  src="/images/company_logo_time.jpg"
                   alt=""
-                  className="w-24  "
+                  className="w-24"
                 />
               </Link>
-              <div>
-                <p className="text-2xl font-bold">Aklil Production</p>
-                <p className=" font-bold">We Produce Develope & Promote</p>
-              </div>
             </div>
             <p className="text-gray-400">© All rights reserved, 2023</p>
           </div>
-          <div className="space-x-4  text-sm ">
+          <div className="space-x-4 text-sm ">
             <Link
               to="/"
               className="space-x-2 gap-y-4 hover:border-b-2 border-primary-yellow"
@@ -41,7 +37,7 @@ export default function Footer() {
           <p className="text-xl md:text-base">
             Sign up for announcments, News and updates.
           </p>
-          <div className="grid grid-cols-3 lg:grid-cols-4 ssm:flex-nowrap flex-wrap gap-x-4 gap-y-2">
+          <div className="grid flex-wrap grid-cols-3 lg:grid-cols-4 ssm:flex-nowrap gap-x-4 gap-y-2">
             <input
               className="col-span-3 ssm:col-span-2 border-2 border-gray-light3 bg-gray-dark1 text-primary-white px-2 py-[6px] flex-grow"
               placeholder="Enter text here"
@@ -53,7 +49,7 @@ export default function Footer() {
           <div className="flex mt-4 -mx-2">
             <a
               href="#kl;"
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500  dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Facebook"
             >
               <svg
@@ -67,7 +63,7 @@ export default function Footer() {
             </a>
             <a
               href="kl;"
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500  dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Facebook"
             >
               <svg
@@ -82,7 +78,7 @@ export default function Footer() {
 
             <a
               href="kl"
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Github"
             >
               <svg
@@ -98,7 +94,7 @@ export default function Footer() {
 
             <a
               href="#m,."
-              className="hover:animate-bounce mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
+              className="mx-2 text-gray-600 hover:animate-bounce dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
               aria-label="Github"
             >
               <svg

@@ -31,9 +31,9 @@ export default function Portfolios() {
           <h2 className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
             Portfolios
           </h2>
-          <p className="text-body-color text-base">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form.
+          <p className="text-base text-body-color">
+            {/* There are many variations of passages of Lorem Ipsum available but
+            the majority have suffered alteration in some form. */}
           </p>
         </div>
       </div>
@@ -50,11 +50,11 @@ export default function Portfolios() {
               }}
             >
               <div className="text-primary-black hover:text-primary-white  hover:bg-primary-black bg-opacity-0 h-[400px] lg:h-[550px] px-10 flex flex-col pb-8 pt-32 lg:pt-64 hover:bg-opacity-50 transform duration-300">
-                <h1 className="text-3xl mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300">
+                <h1 className="mb-5 text-3xl duration-300 transform translate-y-20 group-hover:translate-y-0">
                   {item.title}
                 </h1>
-                <div className="w-16 h-2 bg-yellow-500 rounded-full mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300"></div>
-                <p className="opacity-0 line-clamp-4 text-primary-white text-xl group-hover:opacity-80 transform duration-500 line-clamp-6">
+                <div className="w-16 h-2 mb-5 duration-300 transform translate-y-20 bg-yellow-500 rounded-full group-hover:translate-y-0"></div>
+                <p className="text-xl duration-500 transform opacity-0 line-clamp-4 text-primary-white group-hover:opacity-80 line-clamp-6">
                   {item.testimony}
                 </p>
               </div>
